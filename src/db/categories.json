@@ -1,0 +1,22 @@
+[
+  {
+    "id":"abc123",
+    "name": "Women Clothing",
+    "description": "All you wanted in your dreams are here!! "
+  },
+  {
+    "id": "def456",
+    "name": "Men Clothing",
+    "description": "Let's get ready for every occassion"
+  }, 
+  {
+    "id": "ghij789",
+    "name": "Electronics",
+    "description": "All your dalily needs are here"
+  },
+  {
+    "id": "jklm012",
+    "name": "Accessories",
+    "description": "Add more to your clothing"
+  }
+]

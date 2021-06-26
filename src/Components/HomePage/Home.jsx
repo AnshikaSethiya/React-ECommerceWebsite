@@ -1,10 +1,12 @@
 import React from 'react'
 import './Home.style.css'
+import ImgSlider from './ImgSlider'
 
 const Home = () => {
     return (
         <>
-            <div className="f-div">
+        <ImgSlider />
+            {/* <div className="f-div">
                 <div className="f-text">
                     <h3>BEST OFFER</h3>
                     <h2>NEW ARRIVALS ON SALE</h2>
@@ -19,10 +21,10 @@ const Home = () => {
                     </span>
                     xm,ncnjkskbvbjkfdbkjfdfbbnkjn
 
-                </div>
+                </div> */}
 
 
-            </div>
+            {/* </div> */}
             
         </>
     )
