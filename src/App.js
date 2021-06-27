@@ -1,16 +1,21 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Switch } from 'react-router-dom';
+
+import { CartProvider } from './lib/cart.context';
+
 import Home from './Components/HomePage/Home';
-import Products from './Components/Products/Products';
 
 
 function App() {
   return (
-    <div>
-      {/* <Navbar /> */}
-      {/* <Products /> */}
-      <Home />
-    </div>
+    <CartProvider>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+        </Switch>
+    </CartProvider>
   );
 }
 

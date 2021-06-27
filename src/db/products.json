@@ -1,62 +1,241 @@
 [
   {
     "id": "1a",
-    "name": "Ducky One 2",
-    "price": 100,
-    "currency": "USD",
+    "name": "Olive solid A-Line Dress",
+    "price": 999,
+    "currency": "In Ruppes",
     "delivery": false,
-    "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_DKME1961ST-USPDZZT1_10.jpg",
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/14216654/2021/6/11/acfed59c-8fe1-4928-98d6-73617066fb991623406320010-DressBerry-Women-Dresses-7691623406319685-1.jpg",
     "inStock": true,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "abc123"
   },
   {
     "id": "2a",
-    "name": "Varmilo Sakura",
-    "price": 140,
-    "currency": "USD",
+    "name": "Yoke Design Kurta with Trouser",
+    "price": 853,
+    "currency": "In Rupees",
     "delivery": true,
-    "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_2790_SakuraTKL_1.jpg",
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/11674686/2020/7/10/276c168b-29c6-4da2-b2cb-afe9d5a8ec411594358940300-Ziyaa-Womens-Dark-Pink-Colour-Foil-Print-Straight-Crepe-Kurt-1.jpg",
     "inStock": true,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "abc123"
   },
   {
     "id": "3a",
-    "name": "MK Disco",
-    "price": 80,
-    "currency": "USD",
+    "name": "Black Solid Cotton T-shirt",
+    "price": 599,
+    "currency": "In Rupees",
     "delivery": true,
-    "thumbnail": "https://mechanicalkeyboards.com/shop/images/products/large_2017_Disco_White_Caps_1.png",
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/13607132/2021/2/11/119495b1-d60a-4cac-8c18-25082ec72fa21613017627817CottonT-shirt1.jpg",
     "inStock": false,
-    "categoryId": "fgsa2142fa"
+    "categoryId": "abc123"
   },
   {
-    "id": "4b",
-    "name": "Razer Kraken",
-    "price": 60,
-    "currency": "USD",
+    "id": "4a",
+    "name": " Printed Basic Jumpsuit",
+    "price": 2040,
+    "currency": "In Ruppes",
     "delivery": false,
-    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71BKQhFzDmL._AC_SY355_.jpg",
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/14207934/2021/4/29/34a29944-ad89-4986-93c6-bdcdb0c44b311619674688638INDYAWomenMaroon1.jpg",
     "inStock": false,
-    "categoryId": "xasgy42fa"
+    "categoryId": "abc123"
   },
   {
-    "id": "5b",
-    "name": "HyperX Cloud II",
-    "price": 115,
-    "currency": "USD",
+    "id": "5a",
+    "name": "Ribbed Fitted Crop TOp",
+    "price": 399,
+    "currency": "In Rupees",
     "delivery": false,
-    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/719KtJ-RAFL._AC_SL1417_.jpg",
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/13984188/2021/6/16/19f4db07-3178-4618-8981-b90a4b2a14161623830286080-Roadster-Women-Tops-5821623830285663-1.jpg",
     "inStock": true,
-    "categoryId": "xasgy42fa"
+    "categoryId": "abc123"
   },
   {
-    "id": "6b",
+    "id": "6a",
+    "name": "Waterfall Longline Shrug",
+    "price": 629,
+    "currency": "In Rupees",
+    "delivery": false,
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/1/4/4deaf7b4-39fc-4efc-9178-391dca0742c91546587585031-1.jpg",
+    "inStock": true,
+    "categoryId": "abc123"
+  },
+  {
+    "id": "7b",
     "name": "Sennheiser PC 3 Chat",
     "price": 60,
     "currency": "USD",
     "delivery": false,
     "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
     "inStock": true,
-    "categoryId": "xasgy42fa"
+    "categoryId": "def456"
+  },
+  {
+    "id": "8b",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "def456"
+  },
+  {
+    "id": "9b",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "def456"
+  },
+  {
+    "id": "10b",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "def456"
+  },
+  {
+    "id": "11b",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "def456"
+  },
+  {
+    "id": "12b",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "def456"
+  },
+  {
+    "id": "13c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "14c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "15c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "16c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "17c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "18c",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "ghij789"
+  },
+  {
+    "id": "19d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
+  },
+  {
+    "id": "20d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
+  },
+  {
+    "id": "21d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
+  },
+  {
+    "id": "22d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
+  },{
+    "id": "23d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
+  },
+  {
+    "id": "24d",
+    "name": "Sennheiser PC 3 Chat",
+    "price": 60,
+    "currency": "USD",
+    "delivery": false,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kIoNSe3VL._SL1500_.jpg",
+    "inStock": true,
+    "categoryId": "jklm012"
   }
 ]
