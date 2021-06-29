@@ -6,6 +6,7 @@
 
 .navbar{
     display: flex;
+    width: 99vw;
     justify-content: center;
     align-items: center;
     height: 5rem;
@@ -38,6 +39,9 @@
 }
 
 @media screen and (max-width: 780px) {
+    .navbar{
+        height: 7rem;
+    }
    .logo{
        display: flex;
        position: relative;
@@ -53,7 +57,7 @@
        list-style: none;
        background-color: #D6CEBE;
        left: 0;
-       top: 1rem;
+       top: 4.5rem;
        transition: all 0.5s ease-out;
        width: 100%;
    }
@@ -65,15 +69,22 @@
        padding: 0.5rem;
        transition: all 0.5s ease;
    }
+   .home:hover,
+   .products:hover,
+   .cart:hover{
+        background-color: #9F414B;
+        color: #D6CEBE;
+        cursor: pointer;
+   }
    .mobile-menu-icon{
        display: block;
        position: absolute;
-       font-size: 1rem;
+       font-size: 1.5rem;
        color: #9F414B;
        background-color: #D6CEBE;
        outline: none;
        border: none;
        top: 1rem;
-       right: 1rem;
+       right: 1.5rem;
    }
 }

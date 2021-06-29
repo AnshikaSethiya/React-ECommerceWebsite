@@ -2,25 +2,25 @@
   {
     "id":"abc123",
     "name": "Women Clothing",
-    "image":"https://images.unsplash.com/photo-1597175848600-5ef8d4d15c30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+    "image":"https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
     "description": "All you wanted is here!!"
   },
   {
     "id": "def456",
     "name": "Men Clothing",
-    "image":"",
+    "image":"https://images.unsplash.com/flagged/photo-1564468781192-f023d514222d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     "description": "Let's get ready for every occassion"
   }, 
   {
     "id": "ghij789",
     "name": "Electronics",
-    "image":"",
+    "image":"https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80",
     "description": "All your dalily needs are here"
   },
   {
     "id": "jklm012",
     "name": "Accessories",
-    "image":"",
+    "image":"https://images.unsplash.com/photo-1537832816519-689ad163238b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80",
     "description": "Add more to your clothing"
   }
 ]

@@ -6,8 +6,8 @@
 .f-div{
     margin-left: 0;
     margin-right: 0;
-    width: 100vw;
-    height: 82vh;
+    width: 99vw;
+    height: 87vh;
     /* background-color: darkgray; */
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -23,14 +23,14 @@
 }
 .f-text h3{
     position: relative;
-    color:#FF5B64;
+    color:#21839A;
     font-weight: bolder;
     text-align: center;
     letter-spacing: 0.2rem;
     font-size: 1.8rem;
 }
 .f-text h2{
-    color: white;
+    color:#F4EFE5;
     letter-spacing: 0.5rem;
     font-size: 2.5rem;
 }
@@ -38,17 +38,17 @@
 /*----------------------------------------------------*/
 .categories-sec{
     width:99vw;
-    margin-top: 4rem;
-    background-color: #AAD4C8;
+    margin-top:1rem;
+    background-color: #F4EFE5;
 }
 .categories-sec h2{
     text-align: center;
     padding-top: 2rem;
-    color: #190845;
+    color: #21839A;
 }
 .categories-sec h2::after{
     content: '';
-    background:#FF5B64;
+    background:#9F414B;
     display: block;
     height: 0.2rem;
     width:4.5rem;
@@ -78,7 +78,7 @@
 .card__btn{
     outline: none;
     border: none;
-    background-color: #6951AE;
+    background-color: #9F414B;
     padding-bottom: 0.5rem;
 }
 /*-----------------------------------------------------------------------------------------*/

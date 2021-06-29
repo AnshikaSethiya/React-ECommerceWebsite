@@ -7,12 +7,15 @@ import ShoppingApp from '../assets/undraw_shopping_eii3.svg'
 
 const Navbar = () => {
 
-    const [isMobile, setIsMobile] = useState(true)
+    const [isMobile, setIsMobile] = useState(false)
 
     return (
         <nav className="navbar">
             <h3 className="logo"><img src={ShoppingApp} alt="logo" style={{height:'4rem', width:'6rem'}}/></h3>
-                <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
+                <ul 
+                    className={isMobile ? "nav-links-mobile" : "nav-links"}
+                    onClick={() => setIsMobile(false)}
+                >
                     <Link to="/" exact className="home">
                         <li>Home</li>
                     </Link>
@@ -25,7 +28,8 @@ const Navbar = () => {
                         <li>Cart</li>
                     </Link>  
                 </ul>
-            <button className="mobile-menu-icon">
+            <button className="mobile-menu-icon"
+                onClick={() => setIsMobile(!isMobile)}>
                 {
                     isMobile ? (
                         <i className="fas fa-times"></i>
