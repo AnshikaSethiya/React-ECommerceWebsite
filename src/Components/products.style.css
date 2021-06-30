@@ -1,11 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F4EFE5;
+}
+.filter-option{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+
 .product-flex{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 .individual-card{
     height: 25rem;
-    width: 18rem;
+    width: 20rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.cart-button{
+    background-color: #21839A;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

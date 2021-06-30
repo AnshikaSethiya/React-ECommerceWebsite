@@ -40,18 +40,18 @@ const Products = ({ products }) => {
     }) => (
     <div className="product-flex">
       <Card key={restOfProduct.id} className="individual-card">
-        <CardImg src={thumbnail} alt={name} className="h-25" />
+        <CardImg src={thumbnail} alt={name} className="h-50" />
         <CardBody className="font-weight">
           <CardTitle className="h5">{name}</CardTitle>
-          <CardSubtitle className="h5 mb-2">${price}</CardSubtitle>
+          <CardSubtitle className="h6 mb-2">Rs. {price}</CardSubtitle>
           {delivery && <CardText className="mb-1">Delivery available</CardText>}
           <CardText className={inStock ? 'text-success' : 'text-danger'}>
             {inStock ? 'In stock' : 'Out of stock'}
           </CardText>
           <Button
             type="button"
-            color="dark"
             disabled={!inStock}
+            className="cart-button hover-filled-slide-right"
             onClick={() => handleAddToCart(restOfProduct.id, price, inStock)}
           >
             Add to cart

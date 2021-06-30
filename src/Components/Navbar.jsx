@@ -3,11 +3,22 @@ import { Link } from 'react-router-dom'
 import './Navbar.style.css'
 import ShoppingApp from '../assets/undraw_shopping_eii3.svg'
 
+import { useCart } from '../lib/cart.context';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
 
 
 const Navbar = () => {
 
     const [isMobile, setIsMobile] = useState(false)
+    
+    const cart = useCart();
+    const cartItemsTotal = cart.reduce((total, item) => total + item.quantity, 0);
+    const cartPriceTotal = cart.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
+
 
     return (
         <nav className="navbar">
@@ -25,7 +36,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link to="/" exact className="cart">
-                        <li>Cart</li>
+                        <li><ShoppingCartIcon/>Cart</li>
                     </Link>  
                 </ul>
             <button className="mobile-menu-icon"

@@ -6,6 +6,7 @@ import categories from '../../db/categories.json';
 import { useFilters } from '../../lib/useFilters';
 import FilterCheckbox from '../FilterCheckbox';
 import Products from '../Products';
+import '../products.style.css'
 
 function getComputedProducts(products, filters) {
     // const result = products; would create a reference thus doesn't apply
@@ -53,7 +54,7 @@ function getComputedProducts(products, filters) {
   
     return (
       <Row>
-        <Col xs={12} md={6} className="position-relative">
+        <Col xs={2} sm={2} md={2} lg={2} className="position-relative filter-option">
           <div className="fixed-md">
             <h2 className="h3">Filters</h2>
             <FilterCheckbox
@@ -82,9 +83,10 @@ function getComputedProducts(products, filters) {
             </div>
           </div>
         </Col>
-        <Col xs={12} md={6} className="mt-3 mt-md-0">
-          <h1 className="h3">{category.name}</h1>
-          <div>
+        <Col className="mt-3 mt-md-0">
+          <h1 className="h2 mt-2 text-center" style={{textDecoration:'underline'}}>{category.name}</h1>
+          <br />
+          <div className="product-flex">
             <Products products={filteredProducts} />
           </div>
         </Col>
