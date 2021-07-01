@@ -44,7 +44,6 @@ function cartReducer(state, action) {
   }
   
 
-
 const CartContext = createContext();
 const DispatchCartContext = createContext();
 

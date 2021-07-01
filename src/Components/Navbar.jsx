@@ -35,8 +35,13 @@ const Navbar = () => {
                         <li>Products</li>
                     </Link>
 
-                    <Link to="/" exact className="cart">
-                        <li><ShoppingCartIcon/>Cart</li>
+                    <Link to="/checkout" exact className="cart">
+                        <li><ShoppingCartIcon/>
+                        <div className="cart-child">
+                             {cartItemsTotal}
+                         </div>
+                         <div className="cart-child">Rs.{cartPriceTotal}</div>
+                        </li>
                     </Link>  
                 </ul>
             <button className="mobile-menu-icon"

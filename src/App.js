@@ -7,6 +7,7 @@ import { CartProvider } from './lib/cart.context';
 import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
 import Category from './Components/Pages/Category'
+import Checkout from './Components/Pages/Checkout';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/category/:id" exact>
             <Category />
+          </Route>
+          <Route path="/checkout" exact>
+            <Checkout />
           </Route>
         </Switch>
     </CartProvider>

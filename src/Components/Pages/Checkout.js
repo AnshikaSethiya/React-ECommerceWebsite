@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import { Button, ButtonGroup, Table } from 'reactstrap';
-import { useCart, useCartDispatch } from '../lib/cart.context';
-import PRODUCTS from '../db/products.json';
+import { useCart, useCartDispatch } from '../../lib/cart.context';
+import PRODUCTS from '../../db/products.json';
 
 function getComputedCheckoutItems(products, cartItems) {
   // first filter products that were added to cart
@@ -78,7 +78,7 @@ const Checkout = () => {
                 <td className="font-weight-bold align-middle text-nowrap">
                   {el.name}
                 </td>
-                <td className="font-weight-bold align-middle">${el.price}</td>
+                <td className="font-weight-bold align-middle">Rs.{el.price}</td>
                 <td className="font-weight-bold align-middle">
                   <ButtonGroup>
                     <Button
@@ -122,7 +122,7 @@ const Checkout = () => {
         </Table>
         <hr />
         <div className="text-right">
-          <div className="h3">Total ${cartPriceTotal}</div>
+          <div className="h3">Total Rs.{cartPriceTotal}</div>
         </div>
       </div>
     </div>
