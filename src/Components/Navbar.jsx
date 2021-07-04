@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.style.css'
+import './products.style.css'
 import ShoppingApp from '../assets/undraw_shopping_eii3.svg'
 
 import { useCart } from '../lib/cart.context';
@@ -31,18 +32,24 @@ const Navbar = () => {
                         <li>Home</li>
                     </Link>
 
-                    <Link to="/" exact className="products">
+                    <Link to="/products" exact className="products">
                         <li>Products</li>
                     </Link>
 
                     <Link to="/checkout" exact className="cart">
-                        <li><ShoppingCartIcon/>
-                        <div className="cart-child">
-                             {cartItemsTotal}
+                        <li>
+                        <div className="child-cart">
+                            <ShoppingCartIcon/>Cart
+                            <span className="child-cart" style={{marginLeft:'0.4rem'}}>
+                                {cartItemsTotal}
+                            </span>
                          </div>
-                         <div className="cart-child">Rs.{cartPriceTotal}</div>
                         </li>
                     </Link>  
+
+                    <Link to="/" exact className="price">
+                      <li><span>Rs.{cartPriceTotal}</span></li>
+                    </Link>
                 </ul>
             <button className="mobile-menu-icon"
                 onClick={() => setIsMobile(!isMobile)}>

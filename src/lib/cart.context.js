@@ -12,6 +12,7 @@ function cartReducer(state, action) {
         return isInCart
           ? state.map(item =>
               item.id === action.id
+              
                 ? { ...item, quantity: item.quantity + 1 }
                 : item
             )
