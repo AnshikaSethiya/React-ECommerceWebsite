@@ -54,9 +54,9 @@ function getComputedProducts(products, filters) {
   
     return (
       <Row>
-        <Col xs={2} sm={2} md={2} lg={2} className="position-relative filter-option">
+        <Col xs={3} sm={3} md={3} lg={3} className="position-relative filter-option">
           <div className="fixed-md">
-            <h2 className="h3">Filters</h2>
+            <h2 className="h3 filter-head">Filters</h2>
             <FilterCheckbox
               id="delivery"
               name="delivery"
@@ -78,13 +78,13 @@ function getComputedProducts(products, filters) {
               onChange={onCheckboxChange}
               label="Expensive (100+ USD)"
             />
-            <div className="mt-">
+            <div className="mt-" style={{fontSize:'1.2rem'}}>
               Showing {filteredProducts.length} out of {products.length}
             </div>
           </div>
         </Col>
         <Col className="mt-3 mt-md-0">
-          <h1 className="h2 mt-2 text-center" style={{textDecoration:'underline'}}>{category.name}</h1>
+          <h1 className="h2 text-center cat-heading" style={{marginTop:'7rem'}}>{category.name}</h1>
           <br />
           <div className="product-flex">
             <Products products={filteredProducts} />

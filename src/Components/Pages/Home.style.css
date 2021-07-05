@@ -4,11 +4,14 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    /* background-color:gray; */
+}
 .f-div{
     margin-left: 0;
     margin-right: 0;
     width: 99vw;
-    height: 87vh;
+    height: 94vh;
     /* background-color: darkgray; */
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -40,16 +43,20 @@
 .categories-sec{
     width:99vw;
     margin-top:1rem;
-    background-color: #F4EFE5;
+    /* background-color: #F4EFE5; */
+    /* background-color: #f6f6f6; */
+    background-color: white;
 }
 .categories-sec h2{
     text-align: center;
     padding-top: 2rem;
-    color: #21839A;
+    color: #474747;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
 }
 .categories-sec h2::after{
     content: '';
-    background:#9F414B;
+    background:#CC527A;
     display: block;
     height: 0.2rem;
     width:4.5rem;
@@ -79,7 +86,9 @@
 .card__btn{
     outline: none;
     border: none;
-    background-color: #9F414B;
+    /* background-color: #9F414B; */
+    background-color: #CC527A;
+    color: #363636;
     padding-bottom: 0.5rem;
 }
 /*-----------------------------------------------------------------------------------------*/

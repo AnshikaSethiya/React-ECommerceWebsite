@@ -7,15 +7,99 @@ body{
     width: 100%;
     height: 100%;
 }
-.products-container{
+.product-head{
+    margin-top: 2rem;
+    color: #d3b6b6;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #444444;
+    background: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+.p-div{
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;
+    top: 4rem;
+    width:99vw;
+    height:92vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-image:url('../../assets/products-heading.jpg');
+}
+.p-text{
+    text-align: center;
+    position: relative;
+    top: 43%;
+}
+.p-text h2{
+    color:#21839A;
+    font-weight:600;
+    font-size:3.5rem;
+    letter-spacing: 0.5rem;
+}
+.product-container-flex{
     display: flex;
     flex-direction:row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
 }
-.products-card{
-    height: 25rem;
-    width: 20rem;
+.individual-products-card{
+    height: 32rem;
+    width: 22rem;
+    margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+.products-img{
+    height: 20rem;
+    width: 22rem;
+}
+/* .btn-product{
+    background-color:#CC527A;
+    cursor: pointer;
+    outline: none;
+    border: none;
+} */
+.btn-product {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-product::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+  .btn-product:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-product::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+  }
+  .btn-product:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }

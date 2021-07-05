@@ -40,8 +40,8 @@ const Products = ({ products }) => {
     }) => (
     <div className="product-flex">
       <Card key={restOfProduct.id} className="individual-card">
-        <CardImg src={thumbnail} alt={name} className="h-50" />
-        <CardBody className="font-weight">
+        <CardImg src={thumbnail} alt={name} className="products-img" />
+        <CardBody className="font-weight" style={{backgroundColor:'#99B898'}}>
           <CardTitle className="h5">{name}</CardTitle>
           <CardSubtitle className="h6 mb-2">Rs. {price}</CardSubtitle>
           {delivery && <CardText className="mb-1">Delivery available</CardText>}

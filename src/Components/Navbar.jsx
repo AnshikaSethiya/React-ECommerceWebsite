@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.style.css'
-import './products.style.css'
 import ShoppingApp from '../assets/undraw_shopping_eii3.svg'
 
 import { useCart } from '../lib/cart.context';

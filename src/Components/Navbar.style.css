@@ -5,13 +5,19 @@
 }
 
 .navbar{
+    /* top: 0;
+    bottom:0; */
+    position:fixed;
+    /* overflow-y: scroll; */
+    min-height: 5rem;
+    z-index: 1;
     display: flex;
     width: 99vw;
     justify-content: center;
     align-items: center;
     height: 5rem;
-    background-color: #D6CEBE;
-    color: #9F414B;
+    background-color:#474747;
+    color: #CC527A;
 }
 .logo{
     font-size: 1rem;
@@ -27,7 +33,7 @@
 .products,
 .price{
     text-decoration: none;
-    color: #9F414B;
+    color: #CC527A;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     margin:0 0.5rem;
@@ -36,14 +42,14 @@
 }
 .price:hover{
     text-decoration: none;
-    cursor:initial;
+    cursor:none;
 }
 .cart{
     display: flex;
     justify-content:center;
     /* width: 9rem; */
     align-items: center;
-    color: #9F414B;
+    color:#CC527A;
     cursor: pointer;
     font-weight: bold;
     font-size: 1.2rem;
@@ -53,8 +59,8 @@
 .products:hover,
 .cart:hover,
 .price:hover{
-    background-color:#21839A;
-    color: #F4EFE5;
+    background-color:#A8A7A7;
+    color: #E8175D;
     text-decoration: none;
     border-radius: 0.5rem;
     transition: ease-in-out all 0.5s;
