@@ -74,12 +74,12 @@
 
 @media screen and (max-width: 780px) {
     .navbar{
-        height: 7rem;
+        height: 8rem;
     }
    .logo{
        display: flex;
        position: relative;
-       top: 1rem;
+       top:0rem;
        left: 2rem;
    } 
    .nav-links{
@@ -89,33 +89,43 @@
        position:absolute;
        display: block;
        list-style: none;
-       background-color: #D6CEBE;
+       background-color:#CC527A;
        left: 0;
-       top: 4.5rem;
+       top: 5.5rem;
        transition: all 0.5s ease-out;
        width: 100%;
+   }
+   .price{
+       color: #A8A7A7;
+       text-align: center;
    }
    .home,
    .products,
    .cart{
-       color: #9F414B;
+       color: #A8A7A7;
        text-align: center;
        padding: 0.5rem;
        transition: all 0.5s ease;
    }
    .home:hover,
    .products:hover,
+   .price:hover{
+        background-color: #E8175D;
+        color: #474747;
+        cursor: pointer;
+   }
    .cart:hover{
-        background-color: #9F414B;
-        color: #D6CEBE;
+        background-color:#E8175D;
+        color: #474747;
         cursor: pointer;
    }
    .mobile-menu-icon{
        display: block;
        position: absolute;
        font-size: 1.5rem;
-       color: #9F414B;
-       background-color: #D6CEBE;
+       color:#99B989;
+       padding:0.5rem;
+       background-color:#CC527A;
        outline: none;
        border: none;
        top: 1rem;
